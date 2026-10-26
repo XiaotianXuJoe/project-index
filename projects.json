@@ -1,0 +1,119 @@
+[
+  {
+    "name": "kline-master",
+    "title": "K线之王",
+    "port": "3100",
+    "path": "/home/ubuntu/kline-master",
+    "runtime": "PM2 kline-master",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/kline-master"
+  },
+  {
+    "name": "stockshape",
+    "title": "StockShape 股票形态选股",
+    "port": "3000",
+    "path": "/home/ubuntu/app",
+    "runtime": "PM2 stockshape",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/stockshape"
+  },
+  {
+    "name": "learning-plan",
+    "title": "学习计划管理系统",
+    "port": "80 / 3001",
+    "path": "/home/ubuntu/learning-plan",
+    "runtime": "PM2 + nginx",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/learning-plan"
+  },
+  {
+    "name": "resume-coach",
+    "title": "EasyCV 简历辅导平台",
+    "port": "3200",
+    "path": "/home/ubuntu/resume-coach",
+    "runtime": "PM2 + MySQL Docker",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/resume-coach"
+  },
+  {
+    "name": "od-toolkit",
+    "title": "OD 题解工具站",
+    "port": "4000 / 4001",
+    "path": "/home/ubuntu/od-toolkit",
+    "runtime": "PM2 + nginx",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/od-toolkit"
+  },
+  {
+    "name": "tetris-web",
+    "title": "方块对照实验俄罗斯方块",
+    "port": "8100",
+    "path": "/home/ubuntu/tetris-web",
+    "runtime": "PM2 tetris-web",
+    "source": "服务端完整；前端仅历史 dist",
+    "repo": "https://github.com/XiaotianXuJoe/tetris-web"
+  },
+  {
+    "name": "lucky-panda",
+    "title": "幸运熊猫·注意力训练",
+    "port": "8200",
+    "path": "/home/ubuntu/lucky-panda",
+    "runtime": "PM2 lucky-panda",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/lucky-panda"
+  },
+  {
+    "name": "qrtool",
+    "title": "二维码生成管理工具",
+    "port": "8443",
+    "path": "/home/ubuntu/qrtool",
+    "runtime": "PM2 qrtool",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/qrtool"
+  },
+  {
+    "name": "notefactory",
+    "title": "闭眼笔记工厂",
+    "port": "8300",
+    "path": "/home/ubuntu/notefactory",
+    "runtime": "Docker + MariaDB",
+    "source": "已从 v18 备份恢复完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/notefactory"
+  },
+  {
+    "name": "research-site",
+    "title": "个股深度研究站",
+    "port": "3002",
+    "path": "/var/www/research",
+    "runtime": "nginx + cron",
+    "source": "生成器、报告源码与监控脚本",
+    "repo": "https://github.com/XiaotianXuJoe/research-site"
+  },
+  {
+    "name": "server-dashboard",
+    "title": "服务器监控看板",
+    "port": "5000",
+    "path": "/var/www/dashboard",
+    "runtime": "nginx + cron",
+    "source": "静态看板与采集器",
+    "repo": "https://github.com/XiaotianXuJoe/server-dashboard"
+  },
+  {
+    "name": "xibao-tool",
+    "title": "红白喜报生成工具",
+    "port": "3400",
+    "path": "/home/ubuntu/xibao-tool",
+    "runtime": "PM2 xibao-tool",
+    "source": "完整源码",
+    "repo": "https://github.com/XiaotianXuJoe/xibao-tool"
+  },
+  {
+    "name": "xhs-sync",
+    "title": "小红书同步历史服务",
+    "port": "已停用",
+    "path": "/home/ubuntu/xhs-sync",
+    "runtime": "停用，勿重启",
+    "source": "历史源码存档",
+    "repo": "https://github.com/XiaotianXuJoe/xhs-sync"
+  }
+]
