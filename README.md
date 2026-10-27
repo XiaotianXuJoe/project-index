@@ -9,7 +9,7 @@ GitHub 是各项目的源码权威；生产服务器只保留运行环境、密�
 | 学习计划管理系统 | [learning-plan](https://github.com/XiaotianXuJoe/learning-plan) | 80 / 3001 | 完整源码 |
 | EasyCV 简历辅导平台 | [resume-coach](https://github.com/XiaotianXuJoe/resume-coach) | 3200 | 完整源码 |
 | OD 题解工具站 | [od-toolkit](https://github.com/XiaotianXuJoe/od-toolkit) | 4000 / 4001 | 完整源码 |
-| 方块对照实验俄罗斯方块 | [tetris-web](https://github.com/XiaotianXuJoe/tetris-web) | 8100 | 服务端完整；前端仅历史 dist |
+| 方块对照实验俄罗斯方块 | [tetris-web](https://github.com/XiaotianXuJoe/tetris-web) | 8100 | 完整源码 |
 | 幸运熊猫·注意力训练 | [lucky-panda](https://github.com/XiaotianXuJoe/lucky-panda) | 8200 | 完整源码 |
 | 二维码生成管理工具 | [qrtool](https://github.com/XiaotianXuJoe/qrtool) | 8443 | 完整源码 |
 | 闭眼笔记工厂 | [notefactory](https://github.com/XiaotianXuJoe/notefactory) | 8300 | 已从 v18 备份恢复完整源码 |
@@ -28,7 +28,6 @@ GitHub 是各项目的源码权威；生产服务器只保留运行环境、密�
 
 ## 特别注意
 
-- `tetris-web`：前端原始 `src/` 缺失，`dist/` 只是历史部署产物。
 - `notefactory`：源码来自服务器上的 v18 恢复备份。
 - `xhs-sync`：历史存档，已停用，不要重新启动轮询。
 - `project-index` 只保存索引，不是 monorepo；每个项目仍独立维护。
