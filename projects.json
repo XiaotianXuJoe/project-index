@@ -49,8 +49,8 @@
     "title": "方块对照实验俄罗斯方块",
     "port": "8100",
     "path": "/home/ubuntu/tetris-web",
-    "runtime": "PM2 tetris-web",
-    "source": "服务端完整；前端仅历史 dist",
+    "runtime": "nohup node server.js（详见 docs/PRODUCTION.md）",
+    "source": "完整源码",
     "repo": "https://github.com/XiaotianXuJoe/tetris-web"
   },
   {
